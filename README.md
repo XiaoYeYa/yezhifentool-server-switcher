@@ -26,8 +26,8 @@
 
 ## 🎯 默认服务器配置
 
-- **夜之粉主服**: `sv.baby:25571`
-- **镜像服**: `sv.baby:25565`
+- **夜之粉主服**: `xxx.com:25571`
+- **镜像服**: `xxx.com:25565`
 
 ## 🔧 自定义配置
 
@@ -36,9 +36,9 @@
 ```json
 {
   "mainServerName": "夜之粉主服",
-  "mainServerAddress": "sv.baby:25571",
+  "mainServerAddress": "xxx.com:25571",
   "mirrorServerName": "镜像服",
-  "mirrorServerAddress": "sv.baby:25565"
+  "mirrorServerAddress": "xxx.com:25565"
 }
 ```
 
