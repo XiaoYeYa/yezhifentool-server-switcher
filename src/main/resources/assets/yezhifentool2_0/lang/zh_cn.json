@@ -1,0 +1,8 @@
+{
+  "key.yezhifentool2_0.server_switch": "服务器切换",
+  "category.yezhifentool2_0.general": "夜之粉工具 2.0",
+  "gui.yezhifentool2_0.server_switch.title": "服务器切换",
+  "gui.yezhifentool2_0.server_switch.description": "选择要连接的服务器：",
+  "gui.yezhifentool2_0.server_switch.main_server": "夜之粉主服 (25571)",
+  "gui.yezhifentool2_0.server_switch.mirror_server": "镜像服 (25565)"
+}

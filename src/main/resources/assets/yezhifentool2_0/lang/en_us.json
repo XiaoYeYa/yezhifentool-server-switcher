@@ -1,0 +1,8 @@
+{
+  "key.yezhifentool2_0.server_switch": "Server Switch",
+  "category.yezhifentool2_0.general": "YezhifenTool 2.0",
+  "gui.yezhifentool2_0.server_switch.title": "Server Switch",
+  "gui.yezhifentool2_0.server_switch.description": "Choose a server to connect to:",
+  "gui.yezhifentool2_0.server_switch.main_server": "夜之粉主服 (25571)",
+  "gui.yezhifentool2_0.server_switch.mirror_server": "镜像服 (25565)"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "yezhifentool2_0",
+  "version": "${version}",
+  "name": "夜之粉子主服快捷切换工具",
+  "description": "在聊天栏发送!!jx或!!zf可切换子主服务器，或者按下快捷键打开模组的UI进行切换服务器。使用请时刻遵循《夜之粉玩家条约及服规》最新修订版: https://docs.qq.com/doc/DYW5hclNianllVnVo。该模组归属于YEZHIFEN-Tools、夜之粉快捷工具系列模组（注：本模组只允许在夜之粉系列服务器内使用，如果用于其他服务器造成问题后果自负）。",
+  "authors": ["小夜HEYP"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/yezhifentool2_0/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "ink.yzfs.yezhifentool2_0.client.Yezhifentool2_0DataGenerator"
+    ],
+    "client": [
+      "ink.yzfs.yezhifentool2_0.client.Yezhifentool2_0Client"
+    ],
+    "main": [
+      "ink.yzfs.yezhifentool2_0.Yezhifentool2_0"
+    ]
+  },
+  "mixins": [
+    "yezhifentool2_0.mixins.json",
+    {
+      "config": "yezhifentool2_0.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
