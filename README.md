@@ -1,4 +1,4 @@
-# 夜之粉服务器切换工具 2.0
+# yezhifentool-server-switcher
 
 在聊天栏发送!!jx或!!zf可切换子主服务器，或者按下快捷键打开模组的UI进行切换服务器。
 使用请时刻遵循《夜之粉玩家条约及服规》最新修订版: https://docs.qq.com/doc/DYW5hclNianllVnVo。
